@@ -1,5 +1,5 @@
 import 'package:device_preview/device_preview.dart';
-import 'package:ecommerce/pages/home_page.dart';
+import 'package:ecommerce/pages/pagina_inicial.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       title: 'health app',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorSchemeSeed: const Color(0xff5a73d8),
+        colorSchemeSeed: const Color(0xff061836),
         textTheme: GoogleFonts.plusJakartaSansTextTheme(
           Theme.of(context).textTheme,
         ),
